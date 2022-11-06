@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# SEO settings
+title: "Akul's"
+title2: " Travel Blog" # default: ""
+description: "My Travel blog on Jekyll."
+keywords: "Jekyll, travel, blog, akul, mehra, traveller, asia, europe, netherlands"
+url: http://akul.me
+baseurl: "/travel"
+# baseurl: null
+
+google_analytics: UA-63571538-2
+
+repo: http://github.com/akul08/travel
+disqus_shortname: "akultravel"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Akul Mehra"
+  job      : "Python Enthusiast and Web Developer"
+  bio      : "“Programming is 10% science, 20% ingenuity, and 70% getting the ingenuity to work with the science.”"
+  thumb    : /images/author.jpg
+  email    : mehra.akul@gmail.com
+  url      : http://akul.me
+  github   : http://github.com/akul08
+  twitter  : http://twitter.com/AkulMehra
+  facebook : https://www.facebook.com/akul08
+  linkedin : http://linkedin.com/in/akul08
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@AkulMehra"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
