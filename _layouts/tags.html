@@ -4,6 +4,10 @@ layout: default
 permalink: "/tags.html"
 ---
 
+<!-- In Article ad
+================================================== -->
+{% include adsense-in-article-1.html %}
+
 <div class="row listrecent">
 {% for tag in site.tags %}
 <div class="section-title col-md-12 mt-4">
@@ -21,3 +25,7 @@ permalink: "/tags.html"
 {% assign group = nil %}
 {% endfor %}
 </div>
+
+<!-- Multiplex ad
+================================================== -->
+{% include adsense-multiplex-1.html %}
