@@ -899,3 +899,9 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+/* Adsense */
+.adsbygoogle {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

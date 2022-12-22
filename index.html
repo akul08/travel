@@ -48,6 +48,12 @@ title: Home
 
         {% include postbox.html %}
 
+        <!-- Display ad
+        ================================================== -->
+        {% if forloop.index == 6 %}
+            {% include adsense-display-3.html %}
+        {% endif %}
+
         {% endfor %}
 
     </div>
