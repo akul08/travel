@@ -904,4 +904,6 @@ iframe {
 .adsbygoogle {
     margin-top: 12px;
     margin-bottom: 12px;
+    min-width: 300px;
+    min-height: 50px;
 }
