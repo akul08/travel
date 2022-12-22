@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Travel Maastricht"
+author: akul
 description: "Things to do in Maastricht"
-comments: true
+categories: [ Things to do ]
+image: assets/images/13.jpg
 keywords: "travel, maastricht, netherlands, europe, things to do"
 ---
 

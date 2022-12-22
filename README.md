@@ -1,5 +1,3 @@
-# My Travel Blog
+# Welcome to my Travel blog
 
-Blog Made in Jekyll.
-
-Here is the [link](http://akul08.github.io/travel/).
+Link: https://akul.me/travel/

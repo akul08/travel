@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Travel Bratislava"
+author: akul
 description: "Things to do in Bratislava"
-comments: true
+categories: [ Things to do ]
+image: assets/images/13.jpg
 keywords: "travel, bratrislava, slovakia, europe, things to do"
 ---
 

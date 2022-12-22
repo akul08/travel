@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Travel Doha"
+author: akul
 description: "Things to do in Doha"
-comments: true
+categories: [ Things to do ]
+image: assets/images/13.jpg
 keywords: "travel, doha, qatar, middle east, things to do"
 ---
 

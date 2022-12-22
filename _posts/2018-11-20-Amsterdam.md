@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Travel Amsterdam"
+author: akul
 description: "Things to do in Amsterdam"
-comments: true
+categories: [ Things to do ]
+image: assets/images/13.jpg
 keywords: "travel, amsterdam, netherlands, europe, things to do"
 ---
 
