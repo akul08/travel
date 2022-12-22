@@ -5,8 +5,9 @@ description: "Travel the World, One Step at a Time by Akul."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /travel
-# google_analytics: 'UA-46278016-1'
+google_analytics: 'G-8F75SMXBLW'
 # disqus: 'demowebsite'
+comments: false
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -20,7 +21,7 @@ authors:
     email: mehra.akul@gmail.com
     web: https://akul.me
     twitter: https://twitter.com/AkulMehra
-    description: "Awesomest Person Ever."
+    description: "Awesomest Person Ever To Exist. Digital Nomad. Traveling The World And Living The Dreams!"
 
 # Plugins
 plugins:
@@ -53,8 +54,8 @@ kramdown:
       line_numbers: true
 
 # # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-# adsense: "disabled"
-# adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-6885046636144467"
 # adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
